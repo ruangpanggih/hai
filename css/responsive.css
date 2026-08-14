@@ -1,0 +1,238 @@
+/* ==========================================
+UNIVERSAL RESPONSIVE
+Satu layout untuk semua device
+========================================== */
+
+html{
+    overflow-x:hidden;
+}
+
+body{
+    overflow-x:hidden;
+    min-width:320px;
+}
+
+.container{
+    width:min(92%,1100px);
+    margin:auto;
+}
+
+/* ===========================
+SECTION
+=========================== */
+
+section{
+    padding:80px 0;
+}
+
+.section-title h2{
+    font-size:48px;
+}
+
+/* ===========================
+HERO
+=========================== */
+
+.hero-image{
+    width:320px;
+    margin:40px auto;
+}
+
+.hero-image img{
+    width:100%;
+    border-radius:50%;
+}
+
+/* ===========================
+COUPLE
+Tetap Menurun
+=========================== */
+
+.couple-wrapper{
+    display:flex;
+    flex-direction:column !important;
+    align-items:center;
+    justify-content:center;
+    gap:60px;
+}
+
+.person-card{
+    width:100%;
+    max-width:430px;
+}
+
+.love-icon{
+    margin:10px 0;
+}
+
+/* ===========================
+LOVE STORY
+=========================== */
+
+.timeline{
+    max-width:800px;
+}
+
+.timeline::before{
+    left:30px;
+}
+
+.timeline-item{
+    width:100%;
+    left:0 !important;
+    padding:0 0 40px 70px;
+    text-align:left !important;
+}
+
+.timeline-item::after{
+    left:20px !important;
+    right:auto;
+}
+
+.timeline-content{
+    width:100%;
+    overflow:hidden;
+    word-break:break-word;
+}
+
+.timeline-content h3{
+    font-size:30px;
+}
+
+.timeline-content p{
+    line-height:1.9;
+}
+
+/* ===========================
+SAVE THE DATE
+Tetap menurun
+=========================== */
+
+.event-wrapper{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    max-width:550px;
+    margin:auto;
+}
+
+.event-card{
+    width:100%;
+}
+
+/* ===========================
+COUNTDOWN
+=========================== */
+
+.countdown-wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:16px;
+}
+
+.count-box{
+    width:90px;
+    height:90px;
+}
+
+.count-box h2{
+    font-size:34px;
+}
+
+.count-box p{
+    font-size:12px;
+}
+
+/* ===========================
+MAP
+=========================== */
+
+.maps-box iframe{
+    height:320px;
+}
+
+/* ===========================
+DRESSCODE
+=========================== */
+
+.dress-wrapper{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.color{
+    width:70px;
+    height:70px;
+}
+
+/* ===========================
+INFO
+=========================== */
+
+.information .container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.info-card{
+    padding:30px 20px;
+}
+
+/* ===========================
+GALLERY
+Tetap 3 Kolom
+=========================== */
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:16px;
+}
+
+.gallery-grid a{
+    aspect-ratio:4/5;
+}
+
+/* ===========================
+VIDEO
+=========================== */
+
+.video-wrapper iframe{
+    width:100%;
+    aspect-ratio:16/9;
+    height:auto;
+}
+
+/* ===========================
+GIFT
+=========================== */
+
+.gift-card{
+    max-width:520px;
+    width:100%;
+}
+
+/* ===========================
+RSVP
+=========================== */
+
+#rsvpForm{
+    max-width:700px;
+}
+
+/* ===========================
+FOOTER
+=========================== */
+
+footer h2{
+    font-size:56px;
+}
+
+.vendor-logo img{
+    width:90px;
+}
